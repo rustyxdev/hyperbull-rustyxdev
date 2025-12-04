@@ -202,6 +202,37 @@ cython_debug/
 .cursorindexingignore
 
 # Marimo
+
+
+# ----- TRADING BOT SPECIFIC -----
+.env
+.env.*
+*.key
+*.pem
+*.secret
+config_local.py
+secrets.py
+
+# Logs
+logs/
+*.log
+log.txt
+
+# Dados
+*.csv
+*.json
+data/
+market_data/
+
+# Sistema
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+*.bak
+*~
 marimo/_static/
 marimo/_lsp/
 __marimo__/
